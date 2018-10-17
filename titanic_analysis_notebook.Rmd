@@ -1,0 +1,46 @@
+---
+title: "Predicting Who Survived the Titanic"
+author: "Caitlin Hudon"
+date: "10/16/2018"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+``` {r, echo = FALSE}
+library(PASWR)
+library(tidyverse)
+library(tidymodels)
+```
+
+# Data Gathering
+1. Where is my data?
+2. What do the different things mean?
+
+# Data Exploration
+1. What does my data look like?
+2. Are there columns that are bad candidates for inclusion in models?
+3. Do I need to do any handling of missing values or outliers?
+
+# Sampling
+1. How do I sample to arrive at a robust model?
+2. Do I need to do any additional sampling strategies?
+
+# Feature Engineering
+1. How should I process the data so that it meets the expectations of the models I want to use it for?
+2. Do I need multiple recipes to support multiple types?
+3. What steps do I need to take? What do my numerical variables look like for instance?
+
+
+
+```{r cars}
+summary(cars)
+```
+
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
